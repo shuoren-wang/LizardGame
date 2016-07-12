@@ -32,8 +32,8 @@ public class Game extends GameLoop{
 
         //Draw foreground clouds--obstacles
         for (int i=0; i<cloud.length;i++){
-          //  bufferGraphics.drawImage(cloud[i],clouds_data[i][0],clouds_data[i][1],clouds_data[i][2],clouds_data[i][3],this);
-            bufferGraphics.fillRect(clouds_data[i][0],clouds_data[i][1],clouds_data[i][2],clouds_data[i][3]);
+            bufferGraphics.drawImage(cloud[i],clouds_data[i][0],clouds_data[i][1],clouds_data[i][2],clouds_data[i][3],this);
+         //   bufferGraphics.fillRect(clouds_data[i][0],clouds_data[i][1],clouds_data[i][2],clouds_data[i][3]);
         }
 
         //Draw score
